@@ -4,12 +4,11 @@ on: [push]
 
 jobs:
   test:
-    runs-on: ubuntu-Latest
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checar repositorio
-      uses: actions/checkout@v4
-    
-    -name: Verificar que todo funcione
-    -run: echo "Todo funciona correctamente"
-    
+      - name: Checar r
+        uses: actions/checkout@v4epositorio
+
+      - name: Verificar que todo funcione
+        run: echo "Todo funciona correctamente"
