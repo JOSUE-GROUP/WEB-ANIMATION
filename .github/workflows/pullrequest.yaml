@@ -11,5 +11,5 @@ jobs:
       uses: actions/checkout@v4
     
     -name: Verificar que todo funcione
-     run: echo "Todo funciona correctamente"
+    -run: echo "Todo funciona correctamente"
     
